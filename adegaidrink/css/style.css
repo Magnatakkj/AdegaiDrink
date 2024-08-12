@@ -1,0 +1,494 @@
+/* LOGIN */
+
+body{
+    margin: 0;
+    
+}
+
+.left-login-image{
+    width: 25vw;
+}
+
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.top-login i{
+    position: relative;
+    top: 50px;
+    right: 30px;
+}
+
+.top-login p{
+    font-size: 150%;
+    font-weight: 800;
+    margin-top: 20%;
+    justify-content: center;
+}
+
+.top-login{
+    width: 100vw;
+    background: #700000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: #700000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login h1{
+    color: rgb(248, 144, 144)
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #974444;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #ff0000; 
+}
+
+.card-login h1{
+    color: rgb(238, 197, 197);
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #c29090;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield input::placeholder{
+    color: #f0ffffde;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgb(248, 144, 144);
+    background: black;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px white;
+}
+
+
+.text-btn p{
+    color: white;
+}
+
+.text-btn p a{
+    color: rgb(248, 144, 144);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.text-btn p a:hover {
+    text-decoration: underline;
+}
+
+/* REGISTRAR */
+
+body{
+    margin: 0;
+    
+}
+
+.left-registrar-image{
+    width: 25vw;
+}
+
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.top-registrar i{
+    position: relative;
+    top: 50px;
+    right: 30px;
+}
+
+.top-registrar p{
+    font-size: 150%;
+    font-weight: 800;
+    margin-top: 20%;
+    justify-content: center;
+}
+
+.top-registrar{
+    width: 100vw;
+    background: #700000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-registrar {
+    width: 100vw;
+    height: 100vh;
+    background: #700000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-registrar {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-registrar h1{
+    color: rgb(248, 144, 144)
+}
+
+.right-registrar{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-registrar{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #974444;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #ff0000; 
+}
+
+.card-registrar h1{
+    color: rgb(238, 197, 197);
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #c29090;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield input::placeholder{
+    color: #f0ffffde;
+}
+
+.submit{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgb(248, 144, 144);
+    background: black;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px white;
+}
+
+
+.text-btn p{
+    color: white;
+}
+
+.text-btn p a{
+    color: rgb(248, 144, 144);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.text-btn p a:hover {
+    text-decoration: underline;
+}
+
+/* PROMOÇÕES */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #121212;
+    overflow: hidden;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e51e2a;
+    clip-path: circle(50% at bottom right);
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    position: relative;
+    max-width: 150px;
+}
+header .navegacao ul{
+    position: relative;
+    display: flex;
+}
+header .navegacao  li{
+    list-style: none;
+}
+header .navegacao li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .text{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+.content .text h2{
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+.content .text h2 span{
+    font-size: 3.5em;
+    color: #e51e2a;
+}
+.content .text p{
+    color: #fff;
+}
+.content .text a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: #e51e2a;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+.content .text a:hover{
+    transform: translateY(-10px);
+}
+.icons{
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons li{
+    list-style: none;
+}
+.icons li a{
+    display: inline-block;
+    margin-left: 45px;
+    background: #222;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition:  0.3s ease-in-out;
+}
+.icons li a:hover{
+    background: #e51e2a;
+    transform: translateY(-10px);
+}
+.icons li a img{
+    filter: invert(1);
+    transform: scale(0.5);
+}
+.boxImg{
+    display: flex;
+}
+.boxImg img{
+    display: flex;
+    
+}
+.boxImg .img1{
+    position: absolute;
+    width: 400px;
+    right: 250px;
+    bottom: -60px;
+    transform: rotate(-20deg)
+}
+.boxImg .img2{
+    width: 47%;
+    position: absolute;
+    right: -50px;
+    bottom: -80px;
+    transform: rotate(2deg)
+}
+
+.boxImg .img3{
+    width: 600px;
+    position: absolute;
+    right: -200px;
+    top: 200px;
+    transform: rotate(15deg)
+}
+
+/* SOBRE NÓS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #121212;
+    overflow: hidden;
+}
+
+.sobrecor {
+    color: red; 
+}
+
+.h2 {
+    color: red; 
+}
+
+.sobrecor p{
+    color: white;
+}
+
+

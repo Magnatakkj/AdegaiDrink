@@ -1,0 +1,246 @@
+/* Reset básico para remover margens e preenchimento padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo básico para o corpo */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 2.5;
+  background-color: #f4f4f4;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header .logo {
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+header .navegacao ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+header .navegacao li {
+  margin: 0 15px;
+}
+
+header .navegacao a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+header .navegacao a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo do formulário de pesquisa */
+form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 300px;
+  max-width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Estilo para a seção principal */
+.main-section {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilo para o título da seção */
+.section-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+/* Estilo para a lista de produtos */
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Estilo para cada produto */
+.movie-product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  position: relative;
+  /* Garantir altura consistente */
+  min-height: 400px;
+}
+
+/* Ajusta o título do produto */
+.product-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Ajusta a imagem do produto */
+.product-image {
+  width: 100%;
+  height: 300px; /* Ajuste a altura conforme necessário */
+ /* Ajuste o ajuste conforme necessário */
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+/* Ajusta a descrição do produto */
+.product-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Ajusta o container de preço e botão */
+.product-price-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1; /* Faz o container ocupar o espaço restante */
+}
+
+/* Ajusta o preço do produto */
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Ajusta o botão de adicionar ao carrinho */
+.button-hover-background {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-hover-background:hover {
+  background-color: #555;
+}
+
+/* Estilo para a seção do carrinho */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  position: relative; /* Adiciona posição relativa para permitir posicionamento absoluto */
+}
+
+.cart-table th, .cart-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.cart-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.cart-total-container {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+/* Estiliza o botão de remover */
+.remove-button {
+  background-color: #e74c3c; /* Cor de fundo vermelha */
+  color: #fff; /* Texto branco */
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+}
+
+.remove-button:hover {
+  background-color: #c0392b; /* Cor de fundo vermelha mais escura no hover */
+  transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+
+/* Centraliza o botão de finalizar compra */
+.purchase-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block; /* Faz o botão ser um bloco para facilitar a centralização */
+  width: 200px; /* Define uma largura fixa para o botão */
+  margin-left: auto; /* Alinha o botão à direita do contêiner */
+  margin-right: auto; /* Alinha o botão à esquerda do contêiner */
+}
+
+.purchase-button:hover {
+  background-color: #555;
+}
