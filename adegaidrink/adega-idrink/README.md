@@ -1,2 +1,0 @@
-# Adega iDrink
- 

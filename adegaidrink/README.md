@@ -1,3 +1,0 @@
-# Adega-IDRINK
-
-##teste
